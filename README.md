@@ -1,4 +1,4 @@
-# Tercer proyecto progamado del curso Lenguajes de Programacion
+# Tercer proyecto programado del curso Lenguajes de Programacion
 
 ## Descripción del proyecto: 
 Para este tercer proyecto programado se nos pide diseñar nuestra propia versión del juego de mesa OutFoxed. Debe contar con 16 personajes iguales y con varias opciones de prendas a vestir.
