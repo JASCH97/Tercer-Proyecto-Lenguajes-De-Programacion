@@ -6,6 +6,7 @@ Uno de los personajes comete un robo y los demás deben investigar pistas para s
 La lógica del juego dese ser creada utilizando el lenguaje de programación Prolog y la interfaz gráfica con la que va a interactuar el usuario debe ser con Java.
 
 Link al video donde se explica como se juega OutFoxed: https://www.youtube.com/watch?v=fATRnRnRwLw
+
 Reglas del juego: https://www.fgbradleys.com/rules/rules4/Outfoxed%20-%20rules.pdf
 
 ## Videos Explicativos sobre la solucion de los estudiantes: 
