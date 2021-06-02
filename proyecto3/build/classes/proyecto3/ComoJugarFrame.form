@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="2"/>
+    <Property name="title" type="java.lang.String" value="                                                                                                                                                  &#xbf;C&#xf3;mo Jugar?"/>
+    <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+      <Dimension value="[1000, 786]"/>
+    </Property>
+    <Property name="resizable" type="boolean" value="false"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+    <AuxValue name="designerSize" type="java.awt.Dimension" value="-84,-19,0,5,115,114,0,18,106,97,118,97,46,97,119,116,46,68,105,109,101,110,115,105,111,110,65,-114,-39,-41,-84,95,68,20,2,0,2,73,0,6,104,101,105,103,104,116,73,0,5,119,105,100,116,104,120,112,0,0,3,33,0,0,4,-74"/>
+  </AuxValues>
+
+  <Layout class="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout">
+    <Property name="useNullLayout" type="boolean" value="true"/>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="0" y="0" width="1101" height="801"/>
+        </Constraint>
+      </Constraints>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JTextArea" name="jTextArea1">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="0" green="0" red="0" type="rgb"/>
+            </Property>
+            <Property name="columns" type="int" value="20"/>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Arial" size="14" style="0"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+            </Property>
+            <Property name="rows" type="int" value="5"/>
+            <Property name="text" type="java.lang.String" value="a) CONTEXTO DEL JUEGO&#xa;   Existe una nave espacial con 16 tripulantes cuyo objetivo es explorar algunos planetas del sistema solar en b&#xfa;squeda de recursos o formas de vida.&#xa;   Sin embargo, uno de ellos es un impostor cuya meta es destruir todos los planetas sin ser descubierto. Tu misi&#xf3;n es descubrir qui&#xe9;n es ese &#xa;   impostor buscando pistas que revelen su identidad antes de que sea demasiado tarde.&#xa;  &#xa;&#xa; b) TABLERO DEL JUEGO&#xa;   -Cartas: Cada carta posee una foto de un tripulante de la nave la cual se revela al ser volteada.&#xa;&#xa;   -Interaccion con las cartas: Existen 3 botones asociados a las cartas: Azul, Verde y Rojo. Con el bot&#xf3;n azul podr&#xe1;s revelar cual es el tripulante &#xa;    detr&#xe1;s de esa carta. Con el bot&#xf3;n verde podr&#xe1;s descartar ese tripulante una vez est&#xe9;s seguro de que no es el impostor, pero cuidado, si el que &#xa;    descartas resultaba ser el impostor, pierdes la partida. Con el bot&#xf3;n rojo culpar&#xe1;s al tripulante de la carta como impostor. &#xa;    Si acertas la acusaci&#xf3;n, ganas. Si fallas, pierdes.&#xa;&#xa;   -Signo de pregunta: El signo de pregunta representa al impostor y su movimiento en el tablero. El recorrido por los planetas est&#xe1; descrito en &#xa;    pantalla como Inicio y Fin. Cada vez que visiten un planeta, el signo de pregunta avanzar&#xe1; indicando que ah&#xed; tambi&#xe9;n se encuentra el impostor. &#xa;    Si aun no se descubre al impostor y se avanza de un planeta a otro, este se destruye y queda marcado con una X roja.&#xa;&#xa;   -Dados: Cada turno debes lanzar 3 dados, las caras de cada uno de ellos estan compuestas por 3 huellas y 3 ojos. Antes de lanzarlos deber&#xe1;s decidir &#xa;    si est&#xe1;s en busqueda de huellas o ojos. Si andas en b&#xfa;squeda de pistas deber&#xe1;s intentar obtener 3 huellas. Por otro lado, si est&#xe1;s en b&#xfa;squeda de &#xa;    revelar m&#xe1;s tripulantes volteando cartas, deber&#xe1;s intentar obtener 3 ojos. Cada vez que tires los 3 dados, si no conseguiste las 3 huellas o los 3 &#xa;    ojos, a&#xfa;n tienes la oportunidad de hacer rerrol (lanzar de nuevo) con dos de ellos, los que tu quieras. Cada lanzamiento de dado se realiza por medio&#xa;    de botones, luego de presionarlos se muestra en pantalla lo que obtuviste con ese dado.&#xa;&#xa;   -Pistas: Cada tripulante tiene un color y dos accesorios. Las pistas estan compuestas por todos esos colores y accesorios existentes. Luego de obtener&#xa;    alguna pista puedes usar el decifrador de pistas para saber si la pista le pertenece o no al impostor. Luego de esto, cada pista obtenida se guardar&#xe1;&#xa;    a la derecha del tablero y se organizar&#xe1;n debajo de &quot;Pistas Incriminatorias&quot; o &quot;Pistas Descartadas&quot;. Las incriminatorias ser&#xed;an las pistas que s&#xed; le &#xa;    pertenecen al impostor y las descartadas las que no.&#xa;&#xa;   -Decifrador de Pistas: Cada pista obtenida tiene debajo de ella la opcion de usar el decifrador. Su funcion es indicar si la pista obtenida le pertenece&#xa;    o no al impostor.&#xa;&#xa;   -Turnos: Cada turno se define por el lanzamiento de dados. Si logras obtener 3 estrellas se te dar&#xe1;n las pistas y contar&#xe1; como turno y luego empezar&#xe1; uno&#xa;    nuevo. Si obtienes 3 ojos podr&#xe1;s revelar 2 tripulantes volteando cartas y tambi&#xe9;n contar&#xe1; como turno. Existen los turnos fallidos, estos se dan cuando&#xa;    no logras obtener las 3 huellas u ojos. Cada dos turnos fallidos se avanza al planeta siguiente y se toma como una victoria del impostor. &#xa;    Recuerda que cada vez que se pasa de un planeta a otro, el que se deja atr&#xe1;s se destruye. &#xa;&#xa;&#xa; c) OBJETIVO DEL JUEGO &#xa;    Debes evitar que el impostor destruya el &#xfa;ltimo planeta (la Tierra). &#xa;    Para ello tendr&#xe1;s que conseguir todas las pistas que puedas para as&#xed; tener informaci&#xf3;n de como luce el impostor. Cuando creas que tengas suficientes, &#xa;    lo ideal ser&#xed;a revelar tantos tripulantes como sea posible (levantando cartas) hasta que logres dar con la identidad del impostor y poder culparlo. &#xa;    De la anterior manera ganar&#xe1;s la partida y salvar&#xe1;s todos los planetas que puedas.&#xa;&#xa;&#xa;"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
