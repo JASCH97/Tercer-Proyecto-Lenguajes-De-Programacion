@@ -16,6 +16,7 @@ Reglas del juego: https://www.fgbradleys.com/rules/rules4/Outfoxed%20-%20rules.p
 Para ejecutar este proyecto deberá descargar de git las carpetas: PersonajesJuegoOutfoxed
 proyecto3 y el archivo proyecto3.pl.
 Luego deberá guardar el archivo proyecto3.pl 
+Guardar en el escritorio la carpeta PersonajesJuegoOutfoxed
 Como la interfaz gráfica del proyecto utiliza muchas imagenes, es necesario cambiar la ruta
 de cada una de ellas en el archivo TableroJuegoFrame.java por la ruta en donde se guardó la
 carpeta PersonajesJuegoOutfoxed.
