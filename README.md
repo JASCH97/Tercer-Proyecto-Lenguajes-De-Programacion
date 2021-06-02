@@ -13,3 +13,12 @@ Reglas del juego: https://www.fgbradleys.com/rules/rules4/Outfoxed%20-%20rules.p
 
 
 ## Pasos necesarios para ejecutar el programa:
+Para ejecutar este proyecto deberá descargar de git las carpetas: PersonajesJuegoOutfoxed
+proyecto3 y el archivo proyecto3.pl.
+Luego deberá guardar el archivo proyecto3.pl 
+Como la interfaz gráfica del proyecto utiliza muchas imagenes, es necesario cambiar la ruta
+de cada una de ellas en el archivo TableroJuegoFrame.java por la ruta en donde se guardó la
+carpeta PersonajesJuegoOutfoxed.
+Finalmente abra el archivo Proyecto3.java (que es el main) y ejecute el programa.
+
+Los pasos anteriores aplican con el uso de Netbeans 8.2, jdk8 y swipl. 
