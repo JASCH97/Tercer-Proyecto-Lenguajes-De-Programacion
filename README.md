@@ -10,7 +10,7 @@ Link al video donde se explica como se juega OutFoxed: https://www.youtube.com/w
 Reglas del juego: https://www.fgbradleys.com/rules/rules4/Outfoxed%20-%20rules.pdf
 
 ## Videos Explicativos sobre la solucion de los estudiantes: 
-
+Marco Madrigal: https://www.youtube.com/watch?v=6iSzxBXlZOo
 
 ## Pasos necesarios para ejecutar el programa:
 Para ejecutar este proyecto deberá descargar de git las carpetas: PersonajesJuegoOutfoxed
