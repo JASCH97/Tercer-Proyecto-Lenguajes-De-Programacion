@@ -13,7 +13,6 @@ Reglas del juego: https://www.fgbradleys.com/rules/rules4/Outfoxed%20-%20rules.p
 Marco Madrigal: https://www.youtube.com/watch?v=6iSzxBXlZOo
 
 Joan Sánchez: Sorry profe, por más que traté no logré que el video me quedara menor a 20 minutos :(
-
 https://youtu.be/xt8lHJHfCiU
 
 ## Pasos necesarios para ejecutar el programa:
