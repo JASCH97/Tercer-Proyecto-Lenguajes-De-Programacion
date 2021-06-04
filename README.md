@@ -15,6 +15,8 @@ Marco Madrigal: https://www.youtube.com/watch?v=6iSzxBXlZOo
 Joan Sánchez: Sorry profe, por más que traté no logré que el video me quedara menor a 20 minutos :(
 https://youtu.be/xt8lHJHfCiU
 
+Tomas Acuna: https://youtu.be/agzdlEgucVI
+
 ## Pasos necesarios para ejecutar el programa:
 Para ejecutar este proyecto deberá descargar de git las carpetas: PersonajesJuegoOutfoxed
 proyecto3 y el archivo proyecto3.pl.
